@@ -84,7 +84,7 @@ margin-bottom: 100px;
 }
 
 @keyframes selector {
-	0%   {background-color: unset;}
+	0%   {}
 	25% {background-color: blue;
 		margin-left: 10vw;
 		margin-right:0 ;
