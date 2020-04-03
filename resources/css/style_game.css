@@ -6,16 +6,12 @@ background-color: aliceblue;
 }
 
 
-
-
-
-
 table{width: 90vw;
     margin-left: 4vw;
     
 border: 3px solid black;
 background-color: antiquewhite;
-
+margin-top: 60px;
 }
 table tr:nth-child(2){
 background-color: gold;
@@ -43,7 +39,6 @@ table tr td:nth-child(1)::before{
   content: counter(nrcrt) ".";
 }
 table tr td:nth-child(1),table tr th:nth-child(1){
-    
 width: 50px;
 
 }
