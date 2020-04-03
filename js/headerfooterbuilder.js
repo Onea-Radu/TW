@@ -6,24 +6,24 @@
       <nav>
           <ul class="menu">
 
-              <li><a href="#intro">Introducere</a>
+              <li><a href="index.html#intro">Introducere</a>
                   
                       <ul class="submenu">
-                          <li><a href="#SVM">SVM</a></li>
-                          <li><a href="#Retele">Retele</a></li>
+                          <li><a href="index.html#SVM">SVM</a></li>
+                          <li><a href="index.html#Retele">Retele</a></li>
                       </ul>
                   
               </li>
 
-              <li ><a href="#advanced">Avansat</a>
+              <li ><a href="index.html#advanced">Avansat</a>
                  
                       <ul class="submenu">
-                          <li><a href="#DR">Învățarea prin consolidare</a></li>
-                          <li><a href="./joc.html">Joc demonstrativ</a></li>
+                          <li><a href="index.html#DR">Învățarea prin consolidare</a></li>
+                          <li><a href="joc.html">Joc demonstrativ</a></li>
                       </ul>
                   
               </li>
-              <li ><a href="#advanced">Galerie</a>
+              <li ><a href="gallery.html">Galerie</a>
                   
                   
               </li>

@@ -67,8 +67,26 @@ ul.menu>li>a:hover, ul.submenu>li>a:hover{
 	background-color: aqua;
 }
 
+footer{margin-top: 200px;}
 
 footer a{
     cursor: pointer;
-    text-decoration: none;
+	text-decoration: none;
+}
+header{
+margin-bottom: 100px;
+
+}
+
+@media screen and (max-width:352px){
+header h1{
+   margin-top: 80px;
+}
+@media screen and (min-width:352px){
+	header h1{
+	   margin-top: 80px;
+	}
+	
+	
+
 }
