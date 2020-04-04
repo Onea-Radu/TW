@@ -24,8 +24,8 @@ height: fit-content;
 
 .derulant{
 	display:flex;
-        flex-wrap:nowrap;
-        position:absolute;
+    flex-wrap:nowrap;
+    position:absolute;
 	animation-name: goleft;
 	animation-direction:alternate;
 	animation-timing-function:linear;
