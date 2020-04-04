@@ -5,12 +5,18 @@ height: 90vh;
 background-color: aliceblue;
 }
 
+table:hover{
+    transform: translate(1vw,13px) rotate( 3deg );
+ 
+    
+	transform-origin: left bottom;
 
+}
 
-table{width: 90vw;
-    margin-left: 4vw;
-    position: absolute;
-
+table{width: 85vw;
+    margin-left: 3vw;
+  
+    
 border: 3px solid black;
 background-color: antiquewhite;
 margin-top: 60px;
@@ -29,8 +35,6 @@ table tbody tr:nth-child(2){
         background-color:#cd7f32;
         }
             
-
-
 table tr> * {
     border: 1px solid black;
 }

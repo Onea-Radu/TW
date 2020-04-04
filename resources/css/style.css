@@ -52,7 +52,7 @@ ul.menu>li>a, ul.submenu>li>a{
 	text-align: center;
 	padding: 10px;
     text-decoration: none;
-	transition: background-color 0.3s;
+	transition: background-color 1s;
 }
 
 ul.menu>li,ul.submenu>li {
@@ -104,8 +104,8 @@ margin-bottom: 100px;
 
 section:target{
 	animation: selector;
-	animation-duration: 0.3s;
-	animation-iteration-count: 5;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
 	}
 
 @media screen and (max-width:352px){
