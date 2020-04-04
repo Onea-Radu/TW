@@ -3,7 +3,6 @@
 
 #galerieanimataback{
 
-    
     width: 70vw;
     height: 70vh;
     margin-left: 15vw;
@@ -26,6 +25,7 @@ height: fit-content;
 .derulant{
 	display:flex;
         flex-wrap:nowrap;
+        position:absolute;
 	animation-name: goleft;
 	animation-direction:alternate;
 	animation-timing-function:linear;

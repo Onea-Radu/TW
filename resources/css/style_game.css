@@ -51,7 +51,14 @@ table tr td:nth-child(1),table tr th:nth-child(1){
 width: 50px;
 
 }
+table tr td:nth-child(2),table tr th:nth-child(2){
+    width: 2fr;
+    
+}
 
 
+table tr td:nth-child(3),table tr th:nth-child(3){
+    width: 1fr;
+}
 
 
