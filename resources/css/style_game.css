@@ -6,9 +6,11 @@ background-color: aliceblue;
 }
 
 
+
 table{width: 90vw;
     margin-left: 4vw;
-    
+    position: absolute;
+
 border: 3px solid black;
 background-color: antiquewhite;
 margin-top: 60px;

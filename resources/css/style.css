@@ -85,15 +85,17 @@ margin-bottom: 100px;
 
 @keyframes selector {
 	0%   {}
-	25% {background-color: blue;
+	25% {
+		background-color: blue;
 		margin-left: 10vw;
 		margin-right:0 ;
 	}
-	50% {background-color: blue;
+	50% {background-color: red;
 		margin-left: 10vw;
 		margin-right: 10vw;
 	}
-	75% {background-color: blue;
+	75% {
+		background-color: blue;
 		margin-right: 10vw;
 		margin-left: 0;
 	}
@@ -102,8 +104,8 @@ margin-bottom: 100px;
 
 section:target{
 	animation: selector;
-	animation-duration: 3s;
-	animation-iteration-count: 3;
+	animation-duration: 0.3s;
+	animation-iteration-count: 5;
 	}
 
 @media screen and (max-width:352px){
