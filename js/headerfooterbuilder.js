@@ -37,6 +37,9 @@
 
 $(`
 <footer>
+<p>P. Sherman<br>
+42 Wallaby Way<br>
+Ireland</p>
         <a href="mailto:onearadu12@gmail.com">onearadu12@gmail.com</a>
     </footer>
 `).insertAfter('main');
