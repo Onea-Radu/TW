@@ -1,0 +1,151 @@
+{
+  "lastId": 12,
+  "useri": [
+    {
+      "id": 0,
+      "username": "admin",
+      "nume": "admin",
+      "email": "irina.ciocan@gmail.com",
+      "parola": "724d895f87823bf2ee377b3bc5fb894f",
+      "dataInreg": "2019-11-22T14:10:52.097Z",
+      "rol": "admin",
+      "materii": ""
+    },
+    {
+      "id": 1,
+      "username": "cotcodac",
+      "nume": "Cineva",
+      "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+      "dataInreg": "2020-05-27T16:15:42.087Z",
+      "rol": "user",
+      "materii": "tehnici web"
+    },
+    {
+      "id": 2,
+      "username": "vladimir",
+      "nume": "Sever Examenescu",
+      "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+      "dataInreg": "2020-05-27T16:16:23.436Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala"
+    },
+    {
+      "id": 3,
+      "username": "daniel",
+      "nume": "Sever Examenescu",
+      "parola": "bf4e1e3507e94dae9bcf081f0b9bdd90",
+      "dataInreg": "2020-05-27T16:17:00.156Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala"
+    },
+    {
+      "id": 4,
+      "username": "new",
+      "nume": "aleina",
+      "parola": "b67636cca7c4e71d4afe1909c2c1db19",
+      "dataInreg": "2020-05-27T16:22:34.606Z",
+      "rol": "user",
+      "materii": "tehnici web"
+    },
+    {
+      "id": 5,
+      "username": "prof123",
+      "nume": "Sever Examenescu",
+      "parola": "a58b1507b20df3dcc706db9cdf001798",
+      "dataInreg": "2020-05-27T19:33:38.035Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala"
+    },
+    {
+      "id": 6,
+      "username": "user2",
+      "nume": "Sever Examenescu",
+      "parola": "a8119f0bfe54cb3d83ec55d30200620a",
+      "dataInreg": "2020-05-27T19:46:17.785Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala"
+    },
+    {
+      "id": 7,
+      "username": "prof123",
+      "nume": "Sever Examenescu",
+      "parola": "b352a51dee9806bfdc2606e23e048ecf",
+      "dataInreg": "2020-06-25T09:14:19.187Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala"
+    },
+    {
+      "id": 8,
+      "username": "onearadu",
+      "nume": "12",
+      "parola": "a8119f0bfe54cb3d83ec55d30200620a",
+      "dataInreg": "2020-06-25T10:28:14.837Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala, algorithms"
+    },
+    {
+      "id": 9,
+      "username": "radu",
+      "nume": "char",
+      "parola": "a8119f0bfe54cb3d83ec55d30200620a",
+      "dataInreg": "2020-06-27T13:29:23.952Z",
+      "rol": "user",
+      "materii": "CNN"
+    },
+    {
+      "id": 10,
+      "username": "r",
+      "nume": "1",
+      "parola": "a8119f0bfe54cb3d83ec55d30200620a",
+      "dataInreg": "2020-06-27T13:31:32.734Z",
+      "rol": "user",
+      "materii": "tehnici web, inteligenta artificiala",
+      "gender": "male"
+    },
+    {
+      "id": 11,
+      "username": "radu",
+      "nume": "",
+      "parola": "a8119f0bfe54cb3d83ec55d30200620a",
+      "dataInreg": "2020-06-28T15:40:33.772Z",
+      "rol": "user",
+      "materii": "algorithms, cnn",
+      "gender": "male"
+    }
+  ],
+  "produse": [
+    {
+      "id": 0,
+      "name": "Mirjalili S. Evolutionary Machine Learning Techniques. Algorithms and Applications 2019",
+      "price": 30,
+      "tags": ["Evolutionary", "Algorithms"]
+    },
+    {
+      "id": 1,
+      "name": "Reinforcement Learning",
+      "price": 15,
+      "tags": ["Learning"]
+    },
+    {
+      "id": 2,
+      "name": "Decision tree classifiers",
+      "price": 20,
+      "tags": ["Trees"]
+    },
+    {
+      "id": 3,
+      "name": "AdaBoost for begginers",
+      "price": 10,
+      "tags": ["Boost"]
+    },
+    { "id": 4, "name": "CNNs", "price": 10, "tags": ["CNN"] },
+    { "id": 5, "name": "LSTMs", "price": 10, "tags": ["LSTM"] },
+    {
+      "id": 6,
+      "name": "Neural Networks",
+      "price": 15,
+      "tags": ["Network", "Algorithms"]
+    },
+    { "id": 7, "name": "Test", "price": 10, "tags": ["CNN", "Algorithms"] }
+  ]
+}

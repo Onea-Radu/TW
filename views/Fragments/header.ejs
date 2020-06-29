@@ -1,0 +1,42 @@
+<header>
+  <h1 id="Title">Inteligența artificială</h1>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="/#intro">Introducere</a>
+
+        <ul class="submenu">
+          <li><a href="/#SVM">SVM</a></li>
+          <li><a href="/#Retele">Retele</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="/#advanced">Avansat</a>
+
+        <ul class="submenu">
+          <li><a href="/#DR">Învățarea prin consolidare</a></li>
+          <li><a href="/joc">Joc demonstrativ</a></li>
+        </ul>
+      </li>
+      <li><a href="/gallery">Galerie</a></li>
+      <li><a href="/shop">Shop</a></li>
+      <li><a href="/tasks">Tasks</a></li>
+
+      <li class="right">
+        <%if(!locals.username){%>
+        <a href="/login"> Intrati in cont</a>
+        <ul class="submenu">
+          <li><a href="/inregistrare">Sign Up</a></li>
+        </ul>
+        <%} else{%>
+        <a href="/login"> Salut, <%= locals.username %></a>
+        <ul class="submenu">
+          <li><a href="/logout">Logout</a></li>
+        </ul>
+
+        <%}%>
+      </li>
+    </ul>
+  </nav>
+</header>

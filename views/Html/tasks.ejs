@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Galerie pentru vizionarea unor modele" />
+    <meta name="author" content="Onea Radu" />
+    <style>
+        #container {
+          width: 400px;
+          height: 400px;
+          position: relative;
+          background: yellow;
+        }
+        #animate {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          background-color: red;
+        }
+        </style>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBOt6eeg0YqdwyyJZLLJJTfNxL7eDAcK1ahaH1ZEbyEcRoMivB"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="js/ejs.min.js"></script>
+    <title>Inteligenta artificiala</title>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/task.js"></script>
+  </head>
+
+  <body>
+    <br />
+    <%-include("../Fragments/header")%>
+    <main>
+      <label >Introduceti data nasterii:   </label><input id="ageCalc"></input>
+      <button onclick="AgeCalc()" type="button" class="btn btn-primary">Calculeaza varsta</button>
+      <label id="task1"></label>
+    </br>
+      <label id="task3">Task3:<label id="task3"></label></label>
+      <p><button onclick="myMove()">Click Me</button></p> 
+
+      <div id ="container">
+        <div id ="animate"></div>
+      </div>
+      
+
+    </main>
+    <%-include("../Fragments/footer")%>
+  </body>
+</html>

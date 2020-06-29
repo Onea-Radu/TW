@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="O introducere in tehnicile folosite in inteligenta artificiala "
+    />
+    <meta name="author" content="Onea Radu" />
+    <meta
+      name="keywords"
+      content="Retele Neurale, Inteligenta artificiala,joc,alfa,beta,demonstratie"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBOt6eeg0YqdwyyJZLLJJTfNxL7eDAcK1ahaH1ZEbyEcRoMivB"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_game.css" />
+    <title>Inteligenta artificiala</title>
+    <script src="js/task.js"></script>
+  </head>
+
+
+    <body class="container">
+        <%-include("../Fragments/header")%>
+      
+      <main>
+        <div class="afisaj">
+          <h1>Inregistrare utilizator</h1>
+         
+          <% if(!locals.rsstatus) { %><!-- verific daca status e definit-->
+          <form method="post" action="/inreg" class="date">
+            <!-- daca nu pun action atunci actionul default este pagina curenta -->
+            <p>
+              <label>
+                Username: <input type="text" name="username" placeholder="prof123" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Nume: <input type="text" name="nume" placeholder="Sever Examenescu" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Materii(separate cu virgula):
+                <input
+                  type="text"
+                  name="materii"
+                  value="tehnici web, inteligenta artificiala"
+                  size="50"
+                />
+              </label>
+            </p>
+            <p>
+              <label>
+                Parola: <input type="password" name="parola" value="" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Reintroduceti parola:
+                <input type="password" name="rparola" value="" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Email:
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="profprofprof007@gmail.com"
+                  size="50"
+                />
+              </label>
+            </p>
+            <p>Please select your gender:</p>
+            <label for="male">Male</label><input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+             <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+           
+            <p>
+              <input type="submit" value="Submit" />
+            </p>
+          </form>
+          <% } else if(rsstatus=="ok"){ %>
+          <p>Date introduse</p>
+          <% } else {%>
+          <p>Eroare</p>
+          <% } %>
+        </div>
+      </main>
+      <%-include("../Fragments/footer")%>
+    
+    </body>
+  </html>
+</html>

@@ -1,115 +1,153 @@
-
-
-
-html{
-	font-family:"Times New Roman";
-    font-size: large;
-    background-color: burlywood;
+html {
+  font-family: "Times New Roman";
+  font-size: large;
+  background-color: burlywood;
 }
 
-
-h1, h2, h3,caption{
-	text-align: center;
-	font-weight: bold;
+h1,
+h2,
+h3,
+caption {
+  text-align: center;
+  font-weight: bold;
 }
-h1{
-	padding-top: 37px;
-	font-size: 2rem;
+h1 {
+  padding-top: 37px;
+  font-size: 2rem;
 }
-h2,caption{
-	padding-top: 20px;
-	font-size: 1.7rem;
+h2,
+caption {
+  padding-top: 20px;
+  font-size: 1.7rem;
 }
-h3{
-	font-size:1.4rem ;
-}
-
-nav{
-    width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-    z-index: 1;
-    display: block;    
-}
-*{
-    font-size: 1.5rem;
-    color: #350500;
+h3 {
+  font-size: 1.4rem;
 }
 
-ul.menu, ul.submenu{
-	list-style-type: none;
-	margin: 0;
-	padding:1px;
-	overflow: hidden;
-    background-color:cadetblue  ;
-    
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
 }
-ul.menu>li>a, ul.submenu>li>a{
-	display: block;
-	overflow: hidden;
-	color: darkmagenta;
-	text-align: center;
-	padding: 10px;
-    text-decoration: none;
-	transition: background-color 1s;
+* {
+  font-size: 1.5rem;
+  color: #350500;
 }
 
-ul.menu>li,ul.submenu>li {
-	float: left;
+ul.menu,
+ul.submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+ul.menu > li > a,
+ul.submenu > li > a {
+  display: block;
+  overflow: hidden;
+  color: darkmagenta;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 1s;
 }
 
-ul.submenu{
-	position: absolute;
-	display: none;
-	z-index: 1;
-}
-li:hover ul.submenu{
-	display: block;
+ul.menu > li,
+ul.submenu > li {
+  float: left;
 }
 
-ul.menu>li>a:hover, ul.submenu>li>a:hover{
-	background-color: aqua;
+ul.submenu {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+li:hover ul.submenu {
+  display: block;
 }
 
-footer{margin-top: 200px;float: right;}
-
-footer a{
-    cursor: pointer;
-	text-decoration: none;
+ul.menu > li > a:hover,
+ul.submenu > li > a:hover {
+  background-color: aqua;
 }
-header{
-margin-bottom: 100px;
 
+footer {
+  margin-top: 200px;
+  float: right;
+}
+
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+}
+header {
+  margin-bottom: 100px;
 }
 
 @keyframes selector {
-	0%   {}
-	25% {
-		background-color: blue;
-		margin-left: 10vw;
-		margin-right:0 ;
-	}
-	50% {background-color: red;
-		margin-left: 10vw;
-		margin-right: 10vw;
-	}
-	75% {
-		background-color: blue;
-		margin-right: 10vw;
-		margin-left: 0;
-	}
-
+  0% {
+  }
+  25% {
+    background-color: blue;
+    margin-left: 10vw;
+    margin-right: 0;
+  }
+  50% {
+    background-color: red;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  75% {
+    background-color: blue;
+    margin-right: 10vw;
+    margin-left: 0;
+  }
 }
 
-section:target{
-	animation: selector;
-	animation-duration: 5s;
-	animation-iteration-count: 2;
-	}
-
-@media screen and (max-width:352px){
-header h1{
-   margin-top: 80px;
+section:target {
+  animation: selector;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
+
+@media screen and (max-width: 352px) {
+  header h1 {
+    margin-top: 80px;
+  }
+}
+
+ul > li.right {
+  float: right;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.table-dark * {
+  color: whitesmoke;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+  background-color: #ccc;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 200px;
 }
